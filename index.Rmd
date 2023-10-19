@@ -1,0 +1,38 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+This is a [link](https://www.google.com/) to a DS tool.
+
+You can add test
+  * add list
+
+```{r}
+library(tidyverse)
+plot_df= 
+  tibble(
+    x = runif(100),
+    y = 1+2*x
+  )
+
+plot_df |>
+  ggplot(aes(x = x, y = y))+
+  geom_point()
+```
+![](images/pepp.png)
+
+Also, there is the backstage in auditorium.
+
+![](images/backstage.jep)
+
+Link to the [about](about.html) page. 
+
+
